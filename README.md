@@ -16,8 +16,11 @@ Ambiente LAMP completo usando Docker.
 ### Como utilizar esse projeto?
 * Clone o repositório
 > git clone https://github.com/zilmarr/docker-lamp.git
-* Inicie o ambiente com o docker-compose
-> docker-compose up -d
+* Entre na pasta do projeto e inicie o ambiente com o docker-compose
+```
+cd docker-lamp/
+docker-compose up -d
+```
 * Após esse comando serão criadas duas pastas:
   * **webdata**: seus arquivos html, php, etc. deverão ser colocados aqui.
   * **dbdata**: a persistência do seu banco será feita aqui. Não é necessário alterar nada.
