@@ -8,14 +8,13 @@ Ambiente LAMP completo usando Docker.
 
 ### Requisitos:
 * O ambiente foi criado utilizando:
-> Debian GNU/Linux 9 (stretch)
 
 > Docker version 18.09.6, build 481bc77
 
 > docker-compose version 1.24.0-rc1, build 0f3d4dda
 
 ### Como utilizar esse projeto?
-* Clone esse repositório
+* Clone o repositório
 > git clone https://github.com/zilmarr/docker-lamp.git
 * Inicie o ambiente com o docker-compose
 > docker-compose up -d
